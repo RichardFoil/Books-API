@@ -39,3 +39,7 @@ books.get('/seed', (req, res) => {
             message: 'Seed unsuccessful'
         }))
 })
+
+
+// EXPORT
+module.exports = books
